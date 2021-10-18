@@ -14,7 +14,7 @@ int main()
         printf("%d ", PosFib(t));
     }
     printf("+\n\n");
-    // Tester tall mellom 8 og 34 om de hører hjemme blant fib-tallene
+    // Tester tall mellom 8 og 34 om de hÃ¸rer hjemme blant fib-tallene
     int n;
     for (int tall = 8; tall <= 34; tall++) {
 
@@ -51,13 +51,13 @@ int PosFib(int N) {
     return fib;
 }
 
-int PosFib_rekursiv(int N) {
+int PosFib_recursiv(int N) {
 
     if (N < 0)
         return -1;
 
     if (N == 0 || N == 1)
-        return N;
+        return 1;
 
     return PosFib(N - 2) + PosFib(N - 1);
 }
