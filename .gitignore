@@ -1,0 +1,3 @@
+# Filer som skal utelates
+*.exe
+*.o
